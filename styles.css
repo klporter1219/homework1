@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+nav {
+    width: 1440px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #BB2528;
+}
+
+.navigation__links {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation__links__index {
+    color: #F8B229;
+}
+
+.navigation__links__about {
+    color: #F8B229;
+}
+
+.navigation__links__products {
+    color: #F8B229;
+}
+
+.navigation__links__contact {
+    color: #F8B229;
+}
+
+.index__image__christmas {
+    width: 477px;
+    height: 477px;
+    margin-top: 15px;
+}
+
+.index__paragraph__description {
+    width: 1440px;
+    height: 140px;
+    color: white;
+    font-size: 30px;
+    line-height: 24px;
+    word-spacing: 5px;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #146B3A;
+}
+
+.about__section1 {
+    background-color: #165B33;
+    margin-top: 20px;
+    color: #eee;
+}
+
+.about__section2 {
+    background-color: #146B3A;
+    color: #eee;
+}
+
+.about__paragraph1__description {
+    width: 1440px;
+    height: 250px;
+    font-size: 30px;
+    line-height: 24px;
+    word-spacing: 5px;
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.about__paragraph2__description {
+    width: 1440px;
+    height: 250px;
+    font-size: 30px;
+    line-height: 24px;
+    word-spacing: 5px;
+    font-weight: lighter;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.products__image__gingerbread {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.products__section__description {
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: #146B3A;
+    display: inline-block;
+    width: calc(100vw - 500px);
+    margin-left: 100px;
+    padding: 8px;
+    color: #eee;
+    text-align: center;
+    border-radius: 8px;
+    float: right;
+    margin-top: 175px;
+}
+
+.products__image__present {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.products__div {
+    padding: 0 50px;
+}
+
+.contact__header {
+    font-size: 40px;
+    padding-left: 35px;
+    color: #F8B229;
+    padding-top: 20px;
+    padding-left: 600px;
+}
+
+.contact__form {
+    background-color: #EA4630;
+    width: 700px;
+    height: 700px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+
+.contact__form__title {
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.contact__form__block {
+    width: 600px;
+    height: 50px;
+    background-color: #ef6f5e;
+    margin-left: 50px;
+}
+
+.contact__form__button {
+    width: 200px;
+    height: 50px;
+    background-color: #F8B229;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.contact__form__buy {
+    padding-left: 55px;
+    padding-top: 15px;
+}
+
+footer {
+    background-color: #BB2528;
+    width: 1440px;
+    height: 80px;
+}
+
+.footer__companyName {
+    color: #F8B229;
+    font-size: 20px;
+    float: right;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.footer__facebookLogo {
+    width: 130px;
+    height: 130px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
